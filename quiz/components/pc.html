@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Анкета</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="stylesheet" href="../styles/form.css">
+</head>
+<body>
+<div class="container">
+    <form>
+        <h1>Заполните пожалуйста анкету</h1>
+        <div class="form-group">
+            <input type="text" required="required"/>
+            <label for="input" class="control-label">Как вас зовут?</label><i class="bar"></i>
+        </div>
+        <div class="form-group">
+            <select>
+                <option>М</option>
+                <option>Ж</option>
+            </select>
+            <label for="select" class="control-label">Выберите ваш пол</label><i class="bar"></i>
+        </div>
+        <div class="checkbox">
+            <p><b>Как вы предпочитаете проводить свободное время??</b></p>
+            <label>
+                <input type="checkbox" checked="checked"/><i class="helper"></i>Общение с друзьями
+            </label>
+            <label>
+                <input type="checkbox" checked="checked"/><i class="helper"></i>Прогулки
+            </label>
+            <label>
+                <input type="checkbox" checked="checked"/><i class="helper"></i>Занятия спортом
+            </label>
+            <label>
+                <input type="checkbox" checked="checked"/><i class="helper"></i>Игры в компьютер
+            </label>
+            <label>
+                <input type="checkbox" checked="checked"/><i class="helper"></i>Просмотр ТВ
+            </label>
+            <label>
+                <input type="checkbox" checked="checked"/><i class="helper"></i>Чтение книг
+            </label>
+            <label>
+                <input type="checkbox" checked="checked"/><i class="helper"></i>Другое
+            </label>
+        </div>
+        <form>
+            <div class="form-radio">
+                <div class="radio">
+                    <p><b>Какое количество времени проводите за ПК?</b></p>
+                    <label>
+                        <input type="radio" name="radio" checked="checked"/><i class="helper"></i>Больше 3ч в день
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="radio"/><i class="helper"></i>Меньше 2ч в день
+                    </label>
+                </div>
+            </div>
+        </form>
+
+        <form>
+            <div class="form-radio">
+                <div class="radio">
+                    <p><b>Тратили ли Вы когда-либо на компьютерные игры время, отведенное для учебы/работы?</b></p>
+                    <label>
+                        <input type="radio" name="radio" checked="checked"/><i class="helper"></i>Да, часто
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="radio"/><i class="helper"></i>Это бывает редко
+                    </label>
+                </div>
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="radio"/><i class="helper"></i>Нет
+                    </label>
+                </div>
+            </div>
+        </form>
+        <div class="form-radio">
+            <div class="radio">
+                <p><b>Расстраиваетесь ли Вы, когда проигрываете в компьютерной игре?</b></p>
+                <label>
+                    <input type="radio" name="radio" checked="checked"/><i class="helper"></i>Да, часто
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="radio"/><i class="helper"></i>Это бывает редко
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="radio"/><i class="helper"></i>Нет
+                </label>
+            </div>
+        </div>
+        <div class="form-group">
+            <textarea required="required"></textarea>
+            <label for="textarea" class="control-label">Как вы сами считаете, есть ли у вас
+                зависимость и почему?</label><i
+                class="bar"></i>
+        </div>
+        <div class="button-container">
+            <a href="../index.html">Вернуться</a>
+        </div>
+    </form>
+    <div class="button-container">
+        <button type="button" class="button"><span>Отправить</span></button>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Анкета</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="stylesheet" href="../styles/form.css">
+</head>
+<body>
+<div class="container">
+    <form>
+        <h1>Заполните пожалуйста анкету</h1>
+        <div class="form-group">
+            <input type="text" required="required"/>
+            <label for="input" class="control-label">Как вас зовут?</label><i class="bar"></i>
+        </div>
+        <div class="form-group">
+            <select>
+                <option>М</option>
+                <option>Ж</option>
+            </select>
+            <label for="select" class="control-label">Выберите ваш пол</label><i class="bar"></i>
+        </div>
+        <div class="form-group">
+            <textarea required="required"></textarea>
+            <label for="textarea" class="control-label">Почему вы решили завести домашнее животное?</label><i
+                class="bar"></i>
+        </div>
+        <div class="checkbox">
+            <p><b>Какая причина может заставить вас отказаться от совместной жизни с животным?</b></p>
+            <label>
+                <input type="checkbox" checked="checked"/><i class="helper"></i>Внезапно всплывшие скрытые инфекции
+            </label>
+            <label>
+                <input type="checkbox" checked="checked"/><i class="helper"></i>Переезд в другой город
+            </label>
+            <label>
+                <input type="checkbox" checked="checked"/><i class="helper"></i>Аллергия на шерсть
+            </label>
+            <label>
+                <input type="checkbox" checked="checked"/><i class="helper"></i>Не оправдавшее ожиданий животное
+            </label>
+            <label>
+                <input type="checkbox" checked="checked"/><i class="helper"></i>Другое
+            </label>
+            <label>
+                <input type="checkbox" checked="checked"/><i class="helper"></i>Никакая
+            </label>
+            <label>
+                <input type="checkbox" checked="checked"/><i class="helper"></i>Потеря работы и доходов
+            </label>
+        </div>
+        <div class="form-radio">
+            <div class="radio">
+                <p><b>Ваш питомец</b></p>
+                <label>
+                    <input type="radio" name="radio" checked="checked"/><i class="helper"></i>Младше 10 лет
+                </label>
+            </div>
+            <div class="radio">
+                <label>
+                    <input type="radio" name="radio"/><i class="helper"></i>Старше 10 лет
+                </label>
+            </div>
+        </div>
+        <div class="checkbox">
+            <p><b>Повадки вашего питомца</b></p>
+            <label>
+                <input type="checkbox"/><i class="helper"></i>Спокойный
+            </label>
+            <label>
+                <input type="checkbox"/><i class="helper"></i>Шумный
+            </label>
+            <label>
+                <input type="checkbox"/><i class="helper"></i>Любит гулять
+            </label>
+            <label>
+                <input type="checkbox"/><i class="helper"></i>Спит весь день
+            </label>
+            <label>
+                <input type="checkbox"/><i class="helper"></i>Спокойно принимает незнакомцев
+            </label>
+            <label>
+                <input type="checkbox"/><i class="helper"></i>Боится новых людей/животных
+            </label>
+        </div>
+        <div class="button-container">
+            <a href="../index.html">Вернуться</a>
+        </div>
+    </form>
+    <div class="button-container">
+        <button type="button" class="button"><span>Отправить</span></button>
+    </div>
+
+</div>
+</body>
+</html>
